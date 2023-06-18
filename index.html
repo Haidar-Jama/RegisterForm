@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Register form and login</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="/tablet.css" media="screen and (max-width:900px)">
+     <link rel="stylesheet" href="/Mobile.css" media="screen and (max-width:600px)">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="Container"> 
+         
+          <div class="form-container">
+                     <div class="Create-account">
+                    <h3 class="creatacc">
+                         Create an account
+                    </h3>
+               </div>
+          <form role="form" >
+              
+          <div class="single-input">
+               <input type="text" placeholder="Name" id="Name" required>
+          </div>
+          <div class="single-input">
+               <input type="text" placeholder="Email" id="Email" required>
+          </div>
+          <div class="single-input">
+               <input  class="pass" type="password" placeholder="password" id="pass" required>
+          </div>
+          <div class="single-input">
+               <input class="cPass" type="password" placeholder="Confirm password" id="Con_Pass" required>
+          </div>
+          <div class="submit-button">
+               <Button id="Submit" onclick="saveData()">Submit</Button>
+          </div>         
+          <div class="have-account">
+               <a href="login.html">I have an account please Login</a>
+          </div>
+     </form>
+        </div>
+     </div>
+
+
+     <script src="/app.js"></script>
+     <script src="/main.js"></script>
+     <script src="/alerts.js"></script>
+     <script src="/user.js"></script>
+     
+</body>
+</html>

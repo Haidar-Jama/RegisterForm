@@ -1,0 +1,111 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+
+:root{
+     --primary-color : hsl(204, 75%, 16%) ;
+     --secondary-color : hsl(204, 75%, 20%) ;
+     --tertiary-color: hsl(162, 100%, 40%);
+     --white-color: hsl(0, 0%, 100%) ;
+     --gray-color: hsl(209, 12%, 57%);}
+
+
+.Container{
+     background-color:var(--primary-color);
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.form-container{
+     width: 80%;
+     height: max-content;
+     background-color:var(--white-color);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px;
+     box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.2);
+     text-align: center;
+}
+
+input{
+     width: 250px;
+     height: 40px;
+     margin-bottom: 15px;
+     border: none;
+     outline: none;
+     background-color: #f2f2f2;
+     padding: 5px;
+     font-size: 15px;
+}
+
+button{
+     width: 250px;
+     height: 40px;
+     margin-bottom: 15px;
+     border: none;
+     outline: none;
+     background-color:var(--primary-color);
+     padding: 5px;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+}
+
+.out-container{
+     background-color:var(--primary-color) ;
+     width: 90%;
+     height: max-content;
+     margin: 0 auto;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;     gap: 20px;
+     text-align: center;
+}
+
+.box{
+     width: 150px;
+     height: 300px;
+     color: var(--primary-color);
+     padding: 10px;
+     background-color: #ffffff;
+     
+     font-size: 10px;
+     box-shadow: 8px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+
+img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     
+     
+     cursor: pointer;
+}
+
+.imgprent{
+     width: 100%;
+     height: 140px;
+     overflow: hidden;
+     border: 2px solid var(--tertiary-color);
+     margin-bottom: 10px;
+
+}
+.boxs{
+
+     
+     display: grid;
+     flex-direction: column;
+     grid-template-columns: 1fr 1fr;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+}
